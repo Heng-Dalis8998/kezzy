@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(161, 186, 168);
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    background-color: antiquewhite
+}
+.navbar .nav-brand {
+    text-decoration:none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(27, 24, 24);
+    background-color: rgb(223, 232, 46);
+    padding: 30px 20px;
+    display: inline-block;
+    border-radius:20px;
+}
+.nav-brand .navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+.navbar .navbar-nav .nav-link {
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(27, 24, 24);
+    background-color: rgb(166, 27, 27);
+    padding: 30px 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.picture-plant {
+    margin-top: 100px;
+}
+.img-plant {
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+}
+.part-of .growing {
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+.growing {
+    float:right;
+}
+
+.Padding{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    color: rgb(147, 18, 212);
+}
+.text {
+    border: 2px solid cyan;
+    color: coral;
+    margin-bottom: 100px;
+    padding: 10px 30px 10px 20px;
+}
+ .text .indented {
+    margin-left: 20px 30px;
+    text-align: center;
+}
+.image-kezzy {
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 30px 20px;
+}
+
+.image-class {
+    width: 500px;
+    height: 500px;
+}
+.store1 {
+    width: 500px;
+    height: 500px;
+}
+.store2 {
+        width: 500px;
+        height: 500px;
+}
+.Wellcome {
+    color: rgb(211, 120, 54);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content {
+    margin: 10px;
+}
+.image-thank {
+   margin: 20px 700px;
+    width: 300px;
+    height: 300px;
+}
+/* .. */
+.logo {
+    /* height: 250px; */
+    align-items: center;
+    background-color: bisque;
+    margin-top: 20px;
+}
+.logo .image-logo {
+    display: block;
+    margin:auto;
+    width: 300px;
+    height: 200px;
+}
+.container .box .manager {
+    width: 300px;
+    height: 200px;
+}
+.container .box {
+    margin: 10px 50px;
+    width: 300px;
+    height: 400px;
+    box-shadow: -1px 0 10px rgb(202, 49, 74);
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+ul {
+    padding-left: 20px;
+}
+/* .. */
+.container .home-kind {
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    margin: 20px 20px;
+}
+
